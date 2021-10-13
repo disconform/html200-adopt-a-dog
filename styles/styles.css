@@ -1,0 +1,140 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+img.header-logo {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: 10%;
+  z-index: 1;
+}
+
+img.header-background {
+  width: 100%;
+  margin: 0 auto;
+  height: 40em;
+  z-index: -1;
+}
+
+h1 {
+  position: absolute;
+  color: LimeGreen;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  left: 10%;
+  top: 25%;
+  z-index: 1;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i.fas fa-shopping-cart {
+  position: relative;
+  top: 10%;
+  right: 10%;
+  z-index: 1;
+}
+
+a.checkout {
+  position: absolute;
+  background-color: LimeGreen;
+  text-decoration: none;
+  color: white;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  top: 20%;
+  right: 10%;
+  z-index: 1;
+}
+
+nav.header-link {
+  background-color: LightGrey;
+  color: Navy;
+  height: 3em;
+  padding-top: 0.75em;
+  text-indent: 5em;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a.nav:link {
+  text-decoration: none;
+  color: Navy;
+}
+
+a.nav:visited {
+  color: Navy;
+}
+
+a.footer:link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: White;
+}
+
+a.footer:visited {
+  color: White;
+}
+
+a.adopt {
+  position: inherit;
+  background-color: LimeGreen;
+  text-decoration: none;
+  color: white;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+img.intro {
+  padding-left: 12em;
+
+}
+
+div.aside {
+  width: 70em;
+  padding-top: 5em;
+  padding-right: 30em;
+  float: right;
+}
+
+img.footer-logo {
+  margin-top: 3em;
+  width: 25%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  height: 25em;
+  margin: 0 auto;
+  background-color: Navy;
+  position: absolute;
+  text-align: center;
+  color: white;
+  clear: both;
+}
