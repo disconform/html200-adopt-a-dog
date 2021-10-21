@@ -4,6 +4,122 @@ body {
   margin: 0;
 }
 
+.box {
+  height: 30em;
+  width: 20em;
+  border: 0.25em solid black;
+  align-content: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+h2.blogHeader {
+  font-size: 2.75em;
+  margin-left: 3.5em;
+  margin-top: 2.5em;
+}
+
+h2.checkoutHeader {
+  font-size: 2em;
+  margin-left: 5em;
+}
+
+div.blogContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 10em;
+}
+
+div.blogItem {
+
+}
+
+div.checkoutMargin {
+  margin-left: 10em;
+}
+
+div.adoptedButton {
+  display: flex;
+  flex-direction: row;
+
+}
+
+input.button {
+  float: left;
+
+}
+
+fieldset {
+  border-style: none;
+
+}
+
+img.blog {
+float: left;
+margin-right: 10em;
+}
+
+div.dogsAdopted {
+  display: flex;
+  justify-content: space-around;
+  height: 10em;
+  width: 50em;
+}
+
+img.dogsAdopted {
+  float: left;
+  height: 40%;
+  width: 15%;
+
+}
+
+div.tileText {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3.blog {
+  font-size: 2.5em;
+  margin-right: 13em;
+}
+
+p.blog {
+  margin-right: 30em;
+}
+
 img.header-logo {
   position: absolute;
   width: 30%;
@@ -19,9 +135,14 @@ img.header-background {
   z-index: -1;
 }
 
+img.box {
+  width: 100%;
+  height:auto;
+}
+
 h1 {
   position: absolute;
-  color: LimeGreen;
+  color: rgb(0, 179, 0);
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
   width: 40%;
@@ -32,22 +153,28 @@ h1 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+}
+
+h3  {
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+  margin-left: 1em;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-i.fas fa-shopping-cart {
-  position: relative;
-  top: 10%;
-  right: 10%;
-  z-index: 1;
+p.margin {
+ margin-left: 1em;
+ margin-right: 1em;
 }
+
 
 a.checkout {
   position: absolute;
-  background-color: LimeGreen;
+  background-color: rgb(0, 179, 0);
   text-decoration: none;
   color: white;
   padding-left: 3em;
@@ -89,26 +216,69 @@ a.footer:visited {
 }
 
 a.adopt {
-  position: inherit;
-  background-color: LimeGreen;
+  position: absolute;
+  background-color: rgb(0, 179, 0);
   text-decoration: none;
   color: white;
   padding-left: 3em;
   padding-right: 3em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-left: 5em;
+  text-align: center;
+}
+
+a.submit {
+  display: inline-flex;
+  background-color: rgb(0, 179, 0);
+  text-decoration: none;
+  font-size: 3em;
+  color: white;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  margin-top: 1em;
+  margin-left: 5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 img.intro {
   padding-left: 12em;
-
+  margin-top: 5em;
 }
 
 div.aside {
   width: 70em;
   padding-top: 5em;
   padding-right: 30em;
+  margin-top: 5em;
   float: right;
+}
+
+a.moreDogs {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: Navy;
+  background-color: LightGrey;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 5em;
+  margin-left: 50em;
+  margin-right: 50em;
+}
+
+a.moreDogs:link {
+  text-decoration: none;
+  color: Navy;
 }
 
 img.footer-logo {
@@ -132,7 +302,7 @@ footer {
   width: 100%;
   height: 25em;
   margin: 0 auto;
-  background-color: Navy;
+  background-color: rgb(0, 51, 102);
   position: absolute;
   text-align: center;
   color: white;
